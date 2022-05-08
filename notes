@@ -1,0 +1,90 @@
+array:
+
+def: set of similar data , we traverse through indexing , it is based on 0 indexing
+types: 1d, 2d , multidimension array
+searching algo : linear search , binary search
+sorting algo: selection, bubble, insertion, merge sort, quick sort.
+
+
+linked list:
+def: list that are connected with each other using links
+op: insertionn , deletion , traversing
+types: singly , doubly , circular
+
+stack: 
+def: based on lifo 
+operation : top, push, pop, isempty
+
+
+queue:
+def: based on fifo
+types: dequeue: google, circular queue
+
+binary tree: non linear ds , made of node 
+types: binary tree, complete binary tree, bst, mininmum spanning tree, avl tree
+
+heap : complete binary tree, comes with 
+def: every level is completely filled except last level, node will start filling from left node.
+
+types: max heap and min heap
+heapify algo : heapify algo do nothing but make heap of that node which node is given as input
+
+
+avl tree:
+is a type of binary tree 
+
+
+
+//graphs: non linear data structure
+def: combo of node(vertex) and edges
+uses: google maps use dfs and bfs for finding shortest path 
+adjecncy list of graph
+
+0-----1
+    /
+   /
+  /
+2-----3
+
+spanning tree:- a connected graph 's' of graph g(v, e) is said to be spanning tree if
+a. 's' should contain all vercites of g
+b. 's' should contain (|v| -1)
+
+a. build a graph
+b. traverse a graph : bfs and dfs
+c. cyclic or  acyclic
+d. shortest path : bfs or dijiksta
+e. topologiical sorting
+f. mininmum spannig tree : kruskal and prism algo
+g. backtracking : n queen , rat in maze, knight 
+h. bellman ford
+i. flyod warshell
+
+
+tries:
+greedy algorithm:
+
+job sequencing :
+             j1       j2      j3     j4
+profit      50        15      10     25
+deadline    2         1       2       1
+
+
+chart j1     j3    
+      0   1  2    = 60
+
+chart   j4   j1    = 50 +25 = 75
+
+optimal merge pattern:
+
+
+
+imp algo:
+
+binary search
+sliding window algo : application 
+string algo: pattern searching, lps array
+
+heap interview question:
+smallest range in k sorted list;
+brute force: 
