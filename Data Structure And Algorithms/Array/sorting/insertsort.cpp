@@ -5,29 +5,50 @@ using namespace std;
 
 #define w(i , a, n)   while((i=a)<n)
 
+// void insertSort(int arr[], int n){
+
+//     for (int i = 1; i < n; i++)    //ek loop 1 se n-1 chalana hain 
+//     {
+//         int temp = arr[i];         //temp ko arr[i] ke barabar rkhna hai
+
+//         int j =  i-1;            //j ko i -1 se initialize krna h
+
+//         for (; j >=0;  j--)            //ek loop j se i -1 tk chalana hain 
+//         {
+//             if (arr[j] > temp)         //
+//             {
+//                 //shift
+
+//                 arr[j+1] = arr[j];
+
+//             }
+//             else{
+//                 break;
+//             }
+            
+//         }
+        
+//         arr[j+1] = temp;
+//     }
+    
+// }
+
+
 void insertSort(int arr[], int n){
 
-    for (int i = 1; i < n; i++)    //ek loop 1 se n chalana hain 
-    {
-        int temp = arr[i];         //temp ko arr[i] ke barabar rkhna hai
+    for(int i = 1; i<n ; i++){
+        int temp = arr[i];
+        int j  = i-1;
 
-        int j =  i-1;            //j ko i -1 se initialize krna h
-
-        for (; j >=0;  j--)            //ek loop j se i -1 tk chalana hain 
-        {
-            if (arr[j]> temp)         //
-            {
-                //shift
-
-                arr[j+1] = arr[j];
-
+        for(; j>=0 ; j--){
+            if(arr[j] > temp){
+                arr[j+1]  = arr[j];
             }
             else{
                 break;
             }
-            
+
         }
-        
         arr[j+1] = temp;
     }
     

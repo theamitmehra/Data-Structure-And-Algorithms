@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pi;
@@ -36,17 +37,23 @@ int maxConsecutiveOnes(int *arr){
     return maxct;
 }
 
+
 int main()
 {
     
     int arr[] = {1, 0, 1, 1, 1, 0 , 1};
 
-    // int count = 5;
+    int count = 5;
 
-    // forr(i, 0, count){
-    //     cout<<arr[i]<<endl;
-    // }
+    forr(i, 0, count){
+        cout<<arr[i]<<endl;
+    }
     cout<<maxConsecutiveOnes(arr);
+
+    int arr[] = {1, 2, 3};
+
+    
+ 
 
     return 0;
 }

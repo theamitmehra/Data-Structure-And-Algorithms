@@ -19,10 +19,10 @@ void selectSort(int arr[], int count){
             
         }
 
-        int temp = arr[min];
-        arr[min] = arr[i];
-        arr[i] = temp;
-        
+        // int temp = arr[min];
+        // arr[min] = arr[i];
+        // arr[i] = temp;
+        swap(arr[min],arr[i]);
     }
     
 }

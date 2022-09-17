@@ -2,7 +2,8 @@
 using namespace std;
 #define count n
 
-// this algorithms is used to find max sub-array
+// ! this algorithms is used to find max sub-array
+
 int kadaneAlgorithm(int *arr, int n)
 {
     int max_elements = 0;
